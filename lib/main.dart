@@ -26,9 +26,7 @@ class Calculator extends StatelessWidget {
             Expanded(
               child: CalculatorScreen(),
             ),
-            const Expanded(
-              child: CalculatorKeyBoard(),
-            ),
+            const CalculatorKeyBoard(),
           ],
         ));
   }
